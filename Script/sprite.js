@@ -7,7 +7,7 @@ class Sprite {
 
     if (config.useShadow) {
       this.shadow = new Image();
-      this.shadow.src = "images/characters/shadow.png";
+      this.shadow.src = "/Pizza-Legend/images/characters/shadow.png";
       this.shadow.onload = () => {
         this.shadowLoaded = true;
       };
