@@ -81,13 +81,13 @@ window.overworldMaps.demoRoom = {
   },
   gameObject: {
     hero: new Player({
-      src: "../../images/characters/people/hero.png",
+      src: "images/characters/people/hero.png",
       x: withGrid(5),
       y: withGrid(7),
       useShadow: true,
     }),
     npc2: new Npc({
-      src: "/images/characters/people/npc2.png",
+      src: "images/characters/people/npc2.png",
       x: withGrid(2),
       y: withGrid(8),
       name: "Black Mister V",
@@ -148,7 +148,7 @@ window.overworldMaps.demoRoom = {
       ],
     }),
     npc1: new Npc({
-      src: "/images/characters/people/npc1.png",
+      src: "images/characters/people/npc1.png",
       x: withGrid(7),
       y: withGrid(3),
       name: "Truc",
