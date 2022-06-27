@@ -15,7 +15,7 @@ class GameObject {
     this.src = `/Pizza-Legend${config.src}`;
     this.sprite = new Sprite({
       gameObject: this,
-      src: this.src || "",
+      src: config.src ? this.src : "",
       x: this.x,
       y: this.y,
       useShadow: config.useShadow || null,
