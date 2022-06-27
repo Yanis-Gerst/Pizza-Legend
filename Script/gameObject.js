@@ -11,6 +11,7 @@ class GameObject {
     this.isBehave = false;
     this.talking = config.talkingBox || [];
     this.currentStoryFlagsUpdate = playerState.numberFlags;
+    console.log(config.src, "config");
     this.src = `/Pizza-Legend${config.src}`;
     this.sprite = new Sprite({
       gameObject: this,
