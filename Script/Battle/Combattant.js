@@ -5,7 +5,6 @@ class Combatant {
     this.debuff = null;
     this.specialDamage = null;
     this.recovery = null;
-    this.src = `/Pizza-Legend${this.src}`;
     this.statusEffects = ["buff", "debuff", "specialDamage", "recovery"];
     Object.keys(config).forEach((key) => {
       // Stat informations
