@@ -5,6 +5,7 @@ class Combatant {
     this.debuff = null;
     this.specialDamage = null;
     this.recovery = null;
+    this.src = `/Pizza-Legend${this.src}`;
     this.statusEffects = ["buff", "debuff", "specialDamage", "recovery"];
     Object.keys(config).forEach((key) => {
       // Stat informations
@@ -51,7 +52,7 @@ class Combatant {
             <p class="combatant-name">${this.name}</p>
             <p class="combatant-level">${this.level}</p>
             <div class="combatant-character-container">
-                <img class="combatant-character" src="/Pizza-Legend${this.src}" alt="${this.name}" />
+                <img class="combatant-character" src="${this.src}" alt="${this.name}" />
             </div>
             <img class="combatant-type" src="${this.icon}" alt="${this.type}" />
             <svg viewBox="0 0 26 3" class="combatant-life-container">
