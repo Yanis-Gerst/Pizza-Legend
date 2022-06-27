@@ -3,7 +3,6 @@ class Sprite {
     this.gameObject = config.gameObject;
     this.image = new Image();
     this.image.src = config.src;
-    console.log(this.image.src);
 
     if (config.useShadow) {
       this.shadow = new Image();
