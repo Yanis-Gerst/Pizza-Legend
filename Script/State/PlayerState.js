@@ -90,7 +90,7 @@ class PlayerState {
         map.gameObject.npc2.y = withGrid(10)
         map.gameObject.npc2.direction = "up"
         const event = [
-            {type: "textMessage", text:"Dit-moi ton Pseudo ?", getPlayerName:true}, 
+            {type: "textMessage", text:"Dit-moi ton Pseudo Pd ?", getPlayerName:true}, 
             {type: "textMessage", text:"Toi là"},
             {type:"walk", direction:"up", who:"npc2"},
             {type:"walk", direction:"up", who:"npc2"},
