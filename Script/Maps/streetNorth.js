@@ -170,7 +170,7 @@ window.overworldMaps.streetNorth = {
             type: "textMessage",
             text: "Bats tous les Npcs d'en bat avec de venir ici",
           },
-          { who: "npc15", type: "stand", direction: "down", time: 1 },
+          { who: "npc15", type: "stand", direction: "down", time: 1000 },
           { who: "hero", type: "walk", direction: "down" },
           {
             type: "changeMap",
