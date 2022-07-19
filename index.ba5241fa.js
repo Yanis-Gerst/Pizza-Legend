@@ -1,0 +1,2 @@
+class SceneTransition{constructor(){this.element=null}init(e,t){this.element=document.createElement("div"),this.element.classList.add("sceneTransition"),e.appendChild(this.element),this.element.addEventListener("animationend",(()=>{t()}),{once:!0})}fadeOut(){this.element.classList.add("fadeOut"),this.element.addEventListener("animationend",(()=>{this.element.remove()}),{once:!0})}}
+//# sourceMappingURL=index.ba5241fa.js.map

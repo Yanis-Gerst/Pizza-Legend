@@ -1,0 +1,2 @@
+class ReplacementMenu{constructor(e){this.replacements=e.replacements,this.onComplete=e.onComplete}decide(){this.menuSubmit(this.replacements[0])}showMenu(e){this.keyboardMenu=new KeyboardMenu,this.keyboardMenu.init(e),this.keyboardMenu.setOptions(this.replacements.map((e=>({label:e.name,descriptions:e.descriptions,handler:()=>{this.menuSubmit(e)}}))))}menuSubmit(e){this.keyboardMenu?.end(),this.onComplete(e)}init(e){this.replacements[0].isPlayerControlled?this.showMenu(e):this.decide()}}
+//# sourceMappingURL=index.9b7d8d97.js.map

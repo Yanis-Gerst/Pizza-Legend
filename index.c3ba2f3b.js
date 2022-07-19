@@ -1,0 +1,2 @@
+class Input{constructor(t){this.callStackDirection=[],this.keyDirection={z:"up",s:"down",q:"left",d:"right"}}get direction(){return this.callStackDirection[0]}init(){document.addEventListener("keypress",(t=>{let i=this.keyDirection[t.key];i&&-1==this.callStackDirection.indexOf(i)&&this.callStackDirection.unshift(i)})),document.addEventListener("keyup",(t=>{const i=this.keyDirection[t.key],e=this.callStackDirection.indexOf(i);e>-1&&this.callStackDirection.splice(e,1)}))}}
+//# sourceMappingURL=index.c3ba2f3b.js.map
