@@ -1,7 +1,7 @@
 window.overworldMaps.diningRoom =  {
     id:"diningRoom",
-    upperSrc: "/images/maps/diningRoomUpper.png",
-    lowerSrc: "/images/maps/diningRoomLower.png",
+    upperSrc: "/images/maps/DiningRoomUpper.png",
+    lowerSrc: "/images/maps/DiningRoomLower.png",
     gameObject: {
         hero: new Player({
             src: "/images/characters/people/hero.png",
