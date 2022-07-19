@@ -52,7 +52,7 @@ window.overworldMaps.demoRoom = {
   caseEvent: {
     [gridWall(7, 4)]: [
       {
-        requires: [],
+        requires: ["DEFEATED_GREEN_BOSS"],
         event: [
           {
             type: "changeMap",
@@ -64,7 +64,7 @@ window.overworldMaps.demoRoom = {
         ],
       },
       {
-        event: [{ type: "textMessage", text: "No Requires" }],
+        event: [{ type: "textMessage", text: "Frérot faut aller taper le premier boss avant d'aller la bas" }],
       },
     ],
     [gridWall(5, 10)]: {

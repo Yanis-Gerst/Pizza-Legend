@@ -76,7 +76,7 @@ window.overworldMaps.streetLower = {
             },
             {
               type: "textMessage",
-              text: "Si tu les bats tous, tu auras le droit à un combat avec moi",
+              text: "Si tu met le boss au nord tu me pourras te battre contre moi",
             },
             {
               type: "textMessage",
